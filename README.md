@@ -1,3 +1,5 @@
+<h1>Wordpress boilerplate</h1>
+<p>Latest WP installation in one click.</p>
 <h4>Required:</h4>
 <ul>
   <li>OS UNIX-like (OS X, Linux, FreeBSD, Cygwin)</li>
@@ -8,11 +10,14 @@
 
 <h4>Usage:</h4>
 <ol>
-<li>Set variables in .env file</li>
-<li>
-Run build.sh<br>
-<pre>
-$ ./build.sh
-</pre>
+  <li>
+    Create ".env" file<br>
+    Copy .env.example file to ".env" and fill in the values.
+  </li>
+  <li>
+  Run build.sh<br><br>
+  <pre>
+    $ ./build.sh
+  </pre>
 </li>
 </ol>
