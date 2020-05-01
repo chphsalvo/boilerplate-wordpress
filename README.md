@@ -1,5 +1,5 @@
 <h1>Wordpress boilerplate</h1>
-<p>Latest WP installation in one click.</p>
+<p>Latest WP installation and configuration in one click.</p>
 <h4>Required:</h4>
 <ul>
   <li>OS UNIX-like (OS X, Linux, FreeBSD, Cygwin)</li>
@@ -16,8 +16,6 @@
   </li>
   <li>
   Run build.sh<br><br>
-  <pre>
-    $ ./build.sh
-  </pre>
+  <pre>$ ./build.sh</pre>
 </li>
 </ol>
