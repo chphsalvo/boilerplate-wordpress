@@ -6,6 +6,7 @@
   <li>Create new mysql WP DB</li>
   <li>Setup Wordpress configuration</li>
   <li>Install some main plugins</li>
+  <li>Create and configure a custom theme</li>
 </ul>
 
 <h4>Required:</h4>
