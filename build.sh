@@ -31,6 +31,7 @@ wp plugin install custom-post-type-ui
 wp plugin install wp-migrate-db
 wp plugin install admin-menu-editor
 wp plugin install user-role-editor
+wp plugin install classic-editor
 
 if [[ "$WP_CUSTOM_THEME" == "yes" ]]
 then
