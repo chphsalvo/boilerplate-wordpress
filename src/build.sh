@@ -25,6 +25,8 @@ wp rewrite structure '/%postname%/'
 #create .htaccess file
 wp rewrite flush --hard
 
+if [[ "$WP_PLUGINS" == "yes" ]]
+then
 echo 'Installing plugins...'
 wp plugin install advanced-custom-fields
 wp plugin install custom-post-type-ui
@@ -33,6 +35,7 @@ wp plugin install admin-menu-editor
 wp plugin install user-role-editor
 wp plugin install classic-editor
 wp plugin install post-types-order
+fi
 
 if [[ "$WP_CUSTOM_THEME" == "yes" ]]
 then
