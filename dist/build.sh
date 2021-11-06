@@ -32,6 +32,7 @@ wp plugin install wp-migrate-db
 wp plugin install admin-menu-editor
 wp plugin install user-role-editor
 wp plugin install classic-editor
+wp plugin install post-types-order
 
 if [[ "$WP_CUSTOM_THEME" == "yes" ]]
 then
