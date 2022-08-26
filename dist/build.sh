@@ -6,12 +6,9 @@ fi
 
 mkdir $WP_SITE_NAME
 cd $WP_SITE_NAME
+
 echo 'Downloading latest WP version...'
-curl -O https://wordpress.org/latest.zip
-unzip latest.zip
-rm latest.zip
-mv ./wordpress/* ./
-rmdir ./wordpress
+wp core download
 
 echo 'Creating new database...'
 mysql -u $DB_USER "-p$DB_PASSWORD" -e "CREATE DATABASE IF NOT EXISTS $DB_NAME";
