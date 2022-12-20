@@ -26,21 +26,21 @@ In one click you will:
 - `WP_SITE_NAME` - WordPress site name
 - `WP_SITE_TITLE` - WordPress site title
 - `WP_SITE_URL` - WordPress site URL
-- `WP_ADMIN_USER` -
-- `WP_ADMIN_PASSWORD` -
-- `WP_ADMIN_EMAIL` -
+- `WP_ADMIN_USER` - WordPress admin usuer username
+- `WP_ADMIN_PASSWORD` - Wordpress admin user password
+- `WP_ADMIN_EMAIL` - Wordpress admin user e-mail
 
 ##### DB Variables
 
-- `DB_USER` -
-- `DB_PASSWORD` -
-- `DB_NAME` -
-- `DB_HOST` -
+- `DB_USER` - DB user
+- `DB_PASSWORD` - DB password
+- `DB_NAME` - DB name
+- `DB_HOST` - DB host
 
 ##### WP Theme Variables
 
-- `WP_PLUGINS` -
-- `WP_CUSTOM_THEME` - Create a custom _s WP theme (yes, no)
+- `WP_PLUGINS` - (yes, no)
+- `WP_CUSTOM_THEME` - Create a custom _s WordPress theme (yes, no)
 - `WP_CUSTOM_THEME_SLUG` -
 - `WP_CUSTOM_THEME_NAME` -
 - `WP_CUSTOM_THEME_AUTHOR` -
