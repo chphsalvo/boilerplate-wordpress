@@ -25,10 +25,11 @@ In one click you will:
 
 - `WP_SITE_NAME` - WordPress site name
 - `WP_SITE_TITLE` - WordPress site title
+- `WP_SITE_SLUG` - WordPress site slug
 - `WP_SITE_URL` - WordPress site URL
-- `WP_ADMIN_USER` - WordPress admin usuer username
-- `WP_ADMIN_PASSWORD` - Wordpress admin user password
-- `WP_ADMIN_EMAIL` - Wordpress admin user e-mail
+- `WP_ADMIN_USER` - WordPress admin user username
+- `WP_ADMIN_PASSWORD` - WordPress admin user password
+- `WP_ADMIN_EMAIL` - WordPress admin user e-mail
 
 ##### DB Variables
 
