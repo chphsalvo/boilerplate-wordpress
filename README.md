@@ -38,13 +38,20 @@ In one click you will:
 - `DB_NAME` - DB name
 - `DB_HOST` - DB host
 
+##### WP Plugins Variables
+
+- `WP_PLUGINS` - Install the latest version from wordpress.org (Eg. custom-post-type-ui,advanced-custom-fields)
+- `WP_PLUGINS_REMOTE` - Install from a remote zip file (Eg. http://s3.amazonaws.com/bucketname/my-plugin.zip,http://s3.amazonaws.com/bucketname/my-plugin2.zip)
+- `WP_PLUGINS_LOCAL` - Install from a local zip file (Eg. ./plugins/my-plugin.zip,./plugins/my-plugin2.zip)
+
 ##### WP Theme Variables
 
-- `WP_PLUGINS` - (yes, no)
 - `WP_CUSTOM_THEME` - Create a custom _s WordPress theme (yes, no)
-- `WP_CUSTOM_THEME_SLUG` -
-- `WP_CUSTOM_THEME_NAME` -
-- `WP_CUSTOM_THEME_AUTHOR` -
+- `WP_CUSTOM_THEME_SLUG` - Custom _s theme slug
+- `WP_CUSTOM_THEME_NAME` - Custom _s theme name
+- `WP_CUSTOM_THEME_AUTHOR` - Custom _s theme author
 
-2. Run build.sh `$ ./build.sh`
+2. Give build.sh file the execute permission `chmod +x ./build.sh`
+
+3. Run build.sh `$ ./build.sh`
 
